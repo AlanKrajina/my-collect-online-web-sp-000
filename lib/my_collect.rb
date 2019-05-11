@@ -1,7 +1,7 @@
-def collect 
+def collect(collection)
   counter=0
   
-  while counter < 
+  while counter < collection.length
   
   
 end
