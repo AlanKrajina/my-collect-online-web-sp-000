@@ -14,5 +14,5 @@ my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) do |name|
   name.split(" ").first
 end
 
-array=["Tim Jones", "Tom Smith", "Jim Campagno"]
+array=["Tim Jones"]
 array.split(" ").first
