@@ -1,12 +1,15 @@
 def collect(collection)
-  counter=0
+  i=0
   
-  while counter < collection.length
+  while i < collection.length
     
+  yield(collection[i])
   
+  i += 1
+  end
 end
 
 
 
 
-collect()
+collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) { |name| }
