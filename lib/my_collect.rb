@@ -1,4 +1,4 @@
-def collect(collection)
+def my_collect(collection)
   i=0
   
   while i < collection.length
@@ -12,4 +12,4 @@ end
 
 
 
-collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) { |name| }
+my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) { |name| }
