@@ -8,7 +8,7 @@ def my_collect(collection)
   i += 1
   
   end
-  
+  collection
 end
 
 my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) do |name|
