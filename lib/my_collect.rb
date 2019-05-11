@@ -10,23 +10,22 @@ def my_collect(collection)
   collection
 end
 
-
-
-
 my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) do |name|
   name.split(" ").first
 end
 
-def my_collect(collection)
+
+
+def my_collect(languages)
   i=0
   
-  while i < collection.length
+  while i < languages.length
     
-  yield(collection[i])
+  yield(languages[i])
   
   i += 1
   end
-  collection
+  languages
 end
 
 my_collect(["ruby", "javascript", "python", "objective-c"]) do |name|
