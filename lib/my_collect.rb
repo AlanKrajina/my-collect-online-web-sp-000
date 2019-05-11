@@ -15,19 +15,3 @@ my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) do |name|
 end
 
 
-
-def my_collect1(languages)
-  i=0
-  
-  while i < languages.length
-    
-  yield(languages[i])
-  
-  i += 1
-  end
-  languages
-end
-
-my_collect1(["ruby", "javascript", "python", "objective-c"]) do |language|
-  language.upcase
-end
