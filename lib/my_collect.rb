@@ -3,7 +3,7 @@ def my_collect(collection)
   array=[]
   while i < collection.length
     
-  array <<   yield(collection[i])
+  array << yield(collection[i])
 
   i += 1
   
@@ -14,4 +14,3 @@ my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) do |name|
   name.split(" ").first
 end
 
-"Tim Jones".split(" ").first
